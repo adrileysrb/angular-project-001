@@ -1,0 +1,48 @@
+.container {
+   width: 100%;
+   max-width: 32rem;
+   text-align: center;
+   padding-top: 30px;
+   margin: auto;
+} 
+
+.form-group {
+   width: 100%;
+   padding: 10px;
+   max-width: 32rem;
+   margin: auto;
+}
+
+.text-size {
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.title-text {
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+.btn {
+    background-color: blue;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    color: aliceblue;
+    margin: 10px;
+    border-color: black;
+    border-radius: 5px;
+    box-shadow: 0 3px #999;
+}
+
+.btn:hover {
+    background-color: aqua;
+    color: black;
+}
+
+.btn:active {
+    background-color: aqua;
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+}
+
