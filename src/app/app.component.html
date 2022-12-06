@@ -1,11 +1,20 @@
-<mat-toolbar>
-  <mat-toolbar-row class="nav-background">
-    <span routerLink="/home" class="text-color" style="font-family: 'Franklin Gothic Medium'; font-size: 25px;">Calculator</span>
-    <span routerLink="/basic" class="text-color" style="font-family: 'Franklin Gothic Medium'; font-size: 15px;">Basic Operations</span>
-    <span routerLink="/advanced" class="text-color" style="font-family: 'Franklin Gothic Medium'; font-size: 15px;">Advanced Operations</span>
-    <span class="example-spacer"></span>
-    <mat-icon routerLink="/login" class="example-icon text-color">login</mat-icon>
-    <mat-icon routerLink="/signup" class="example-icon text-color">assignment_ind</mat-icon>
-  </mat-toolbar-row>
-</mat-toolbar>
+<ul class="nav nav-background">
+  <li class="nav-item">
+    <a routerLink="/home" class="nav-link" style="font-size: 28px;">Calculator</a>
+  </li>
+  <li class="nav-item">
+    <a routerLink="/basic" class="nav-link" >Basic Operations</a>
+  </li>
+  <li class="nav-item">
+    <a routerLink="/advanced" class="nav-link" >Advanced Operations</a>
+  </li>
+  <span class="example-spacer"></span>
+  <li class="nav-item">
+    <a routerLink="/login" class="nav-link" ><mat-icon>login</mat-icon></a>
+  </li>
+  <li class="nav-item">
+    <a routerLink="/signup" class="nav-link" ><mat-icon>assignment_ind</mat-icon></a>
+  </li>
+</ul>
+
 <router-outlet></router-outlet>

@@ -1,21 +1,24 @@
-<div class="container">
-    <p class="title-text">Login</p>
-    <form>
-
-        <div class="form-group">
-            <label for="nameId"></label>
-            <input type="text" class="form-control text-size" id="nameId"
-                [(ngModel)] = "model.name" name="name">
+<div class="card " style="margin: 5px;">
+    <div class="text-center title" >Login</div>
+    <form class="card-center">
+        <div class="card-body text-center ">
+            <div class="form-group">
+                <label for="nameId"></label>
+                <input type="text" class="form-control" id="nameId"
+                    [(ngModel)] = "model.name" name="name" placeholder="Email">
+            </div>
+    
+            <div class="form-group">
+                <label for="passwordId"></label>
+                <input type="password" class="form-control" id="passwordId"
+                [(ngModel)]="model.password" name="password" placeholder="Password" required="true">
+                <div class="invalid-feedback">
+                    Please provide password.
+                  </div>
+            </div>
+    
+            <button type="submit" class="btn btn-primary margin-button"
+               >Submit</button>
         </div>
-
-        <div class="form-group">
-            <label for="passwordId"></label>
-            <input type="password" class="form-control text-size" id="passwordId"
-            [(ngModel)]="model.password" name="password">
-        </div>
-
-        <button type="submit" class="btn"
-           >Submit</button>
-
     </form>
 </div>

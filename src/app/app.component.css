@@ -6,11 +6,15 @@
     flex: 1 1 auto
 }
 
-.nav-background {
-    background-color: blue;
+li a {
+    color: white;
+    padding: 10px;
 }
 
-.text-color {
-    color: aliceblue;
-    padding: 10px;
+ul {
+    color: blue;
+}
+
+.nav-background {
+    background-color: blue;
 }

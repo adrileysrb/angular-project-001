@@ -8,4 +8,6 @@ import { User } from '../user';
 })
 export class SignupComponent {
   model = new User("", "");
+  states:string[] = ["Acre", "Amazonas", "Amapá", "Brasilia"];
+
 }
